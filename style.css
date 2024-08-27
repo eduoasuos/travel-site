@@ -130,3 +130,13 @@ main{
     font-weight: 700;
     color: #0C51A7;
 }
+
+.last-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    color: #333333;
+    font-family: inherit;
+}
