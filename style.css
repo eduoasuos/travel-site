@@ -67,3 +67,35 @@ main{
     font-size: 15.5px;
     color: #333333;
 }
+
+#secondary-section{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin: 0 80px;
+    margin-top: 64px;
+    gap: 40px;
+}
+
+#secondary-section h2{
+    font-family: inherit;
+    font-size: 28px;
+}
+
+.secondary-tittle-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.headline-secondary{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #E95E10;
+}
+
+.tittle-secondary{
+    font-family: inherit;
+    margin-top: 10px;
+}
