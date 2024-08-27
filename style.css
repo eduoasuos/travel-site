@@ -18,7 +18,7 @@ body{
 
 main{
     background-color: white;
-    margin-top: 100px;
+    margin: 100px 0;
 }
 
 #main-section{
@@ -139,4 +139,15 @@ main{
     margin-top: 40px;
     color: #333333;
     font-family: inherit;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-top: 20px;
+    font-family: "Alice", serif;
+    font-size: 20px;
 }
