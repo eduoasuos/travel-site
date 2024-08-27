@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+:root{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #29292E;
+}
+
+main{
+    background-color: white;
+    margin-top: 100px;
+}
+
+#busan{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin: 0 80px;
+    margin-top: 88px;
+    gap: 40px;
+}
+
+.tittle-page{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tittle-page p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #E95E10;
+}
+
+.tittle-page h1{
+    font-family: inherit;
+    font-size: 35px;
+    color: #1B1B1B;
+}
+
+.description-busan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.description-busan img{
+    border-radius: 28px;
+}
+
+.description-busan p{
+    text-align: center;
+    font-size: 15.5px;
+}
