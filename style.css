@@ -41,7 +41,7 @@ main{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 16px;
-    color: #E95E10;
+    color: #E1624F;
 }
 
 .tittle-page h1{
@@ -68,13 +68,15 @@ main{
     color: #333333;
 }
 
+.main-secondary-section{
+    margin-top: 35px;
+}
 #secondary-section{
     display: flex;
     align-items: start;
     flex-direction: column;
     margin: 0 80px;
-    margin-top: 64px;
-    gap: 40px;
+    margin-top: 38px;
 }
 
 #secondary-section h2{
@@ -92,10 +94,39 @@ main{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
-    color: #E95E10;
+    color: #E1624F;
 }
 
 .tittle-secondary{
     font-family: inherit;
     margin-top: 10px;
+    color: #333333;
+}
+
+.first-item{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-item-tittle{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.first-text{
+    margin-top: 5px;
+}
+
+.first-item span{
+    font-family: inherit;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 25px;
+}
+
+.first-item span ul li {
+    font-family: inherit;
+    font-weight: 700;
+    color: #0C51A7;
 }
